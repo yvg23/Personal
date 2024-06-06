@@ -4,9 +4,9 @@ from datetime import datetime, timedelta
 
 # Define the start and end dates
 start_date = datetime(2022, 4, 15)
-end_date = datetime(2023, 9, 10)  # One day before September 11, 2023
+end_date = datetime(2024, 5, 6)  # One day before September 11, 2023
 
-for i in range(200):
+for i in range(2000):
     # Generate a random date within the specified range
     rand_days = random.randint(0, (end_date - start_date).days)
     commit_date = start_date + timedelta(days=rand_days)
